@@ -2,6 +2,8 @@
 Installs Android SDK.
 This is a requirement to compile the Rust code in [combined_game_client](https://github.com/Nistoehchelon/combined_game_client.git) into a .so library for the Android app, but also, in general, to compile, say, an executable for aarch64-linux-android target if one felt so inclined.
 
+TODO: Since sdkmanager is being deprecated in favour of android sdk cli, replace the usage of sdkmanager with said new method.
+
 ```bash
 mkdir -p ~/android-sdk/cmdline-tools
 cd ~/android-sdk/cmdline-tools
