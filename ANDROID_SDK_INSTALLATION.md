@@ -1,6 +1,9 @@
 
-Installs Android SDK.
-This is a requirement to compile the Rust code in [combined_game_client](https://github.com/Nistoehchelon/combined_game_client.git) into a .so library for the Android app, but also, in general, to compile, say, an executable for aarch64-linux-android target if one felt so inclined.
+1. Installs Android SDK.
+2. Also install cargo-ndk, but this is a step that is completely separate from installing the Android SDK. I have probably have installed it by this point at some earlier time, but I assume that calling cargo install cargo-ndk twice does nothing, so it makes no difference either way.
+
+
+This (the Android SDK and cargo-ndk) is used to compile the Rust code in [combined_game_client](https://github.com/Nistoehchelon/combined_game_client.git) into a .so library for the Android app, but also, in general, to compile, say, an executable for aarch64-linux-android target if one felt so inclined.
 
 TODO: Since sdkmanager is being deprecated in favour of android sdk cli, replace the usage of sdkmanager with said new method.
 
