@@ -46,7 +46,8 @@ export ANDROID_NDK_ROOT="$ANDROID_SDK_ROOT/ndk/30.0.15729638"
 EOF
 
 sudo apt install  zip -y
-# Not sure if I am actually using sdkman anywhere, so it might not be needed? TODO: Explore this matter further, but I don't feel like doing that right now.
+# Not sure if I am actually using sdkman anywhere, so it might not be needed? TODO: Explore this matter further, but
+# I don't feel like doing that right now.
 curl -s "https://get.sdkman.io" | bash 
 source "$HOME/.sdkman/bin/sdkman-init.sh" 
 sdk install gradle 
